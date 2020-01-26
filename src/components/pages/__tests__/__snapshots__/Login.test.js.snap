@@ -1,0 +1,200 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Login /> renders and matches snapshot 1`] = `
+<form
+  className="measure center bg-white pa4 br2"
+  data-test="login-form"
+  onSubmit={[Function]}
+>
+  <fieldset
+    className="ba b--transparent ph0 mh0"
+    id="login"
+  >
+    <legend
+      className="f4 fw6 ph0 mh0"
+    >
+      Sign In
+    </legend>
+    <TextFieldGroup
+      info="a username do you have one?"
+      label="Username"
+      name="username"
+      onChange={[Function]}
+      placeholder="Mr Potato"
+      required={true}
+      type="text"
+      value=""
+    />
+    <TextFieldGroup
+      info="a password do you have one?"
+      label="Password"
+      name="password"
+      onChange={[Function]}
+      required={true}
+      type="password"
+      value=""
+    />
+    <input
+      className="b ph3 pv2 input-reset ba b--black grow pointer f6 dib"
+      type="submit"
+    />
+  </fieldset>
+</form>
+`;
+
+exports[`<Login /> renders errors on the form 1`] = `
+<form
+  className="measure center bg-white pa4 br2"
+  data-test="login-form"
+  onSubmit={[Function]}
+>
+  <fieldset
+    className="ba b--transparent ph0 mh0"
+    id="login"
+  >
+    <legend
+      className="f4 fw6 ph0 mh0"
+    >
+      Sign In
+    </legend>
+    <TextFieldGroup
+      error={
+        Array [
+          "this field cannot be blank",
+        ]
+      }
+      info="a username do you have one?"
+      label="Username"
+      name="username"
+      onChange={[Function]}
+      placeholder="Mr Potato"
+      required={true}
+      type="text"
+      value=""
+    />
+    <TextFieldGroup
+      error={
+        Array [
+          "this field cannot be blank",
+        ]
+      }
+      info="a password do you have one?"
+      label="Password"
+      name="password"
+      onChange={[Function]}
+      required={true}
+      type="password"
+      value=""
+    />
+    <input
+      className="b ph3 pv2 input-reset ba b--black grow pointer f6 dib"
+      type="submit"
+    />
+  </fieldset>
+</form>
+`;
+
+exports[`<Login /> updates the form contents when there are changes 1`] = `
+<form
+  className="measure center bg-white pa4 br2"
+  data-test="login-form"
+  onSubmit={[Function]}
+>
+  <fieldset
+    className="ba b--transparent ph0 mh0"
+    id="login"
+  >
+    <legend
+      className="f4 fw6 ph0 mh0"
+    >
+      Sign In
+    </legend>
+    <TextFieldGroup
+      info="a username do you have one?"
+      label="Username"
+      name="username"
+      onChange={[Function]}
+      placeholder="Mr Potato"
+      required={true}
+      type="text"
+      value="Barton_Sporer"
+    >
+      <div
+        className="measure mt3"
+      >
+        <label
+          className="db fw6 lh-copy f6"
+          htmlFor="username"
+        >
+          Username
+          <span
+            className="normal red"
+          >
+             *
+          </span>
+        </label>
+        <input
+          aria-describedby="name-desc"
+          className="pa2 input-reset ba hover-bg-black hover-white w-100  b--black-20"
+          id="username"
+          name="username"
+          onChange={[Function]}
+          placeholder="Mr Potato"
+          type="text"
+          value="Barton_Sporer"
+        />
+        <small
+          className="f6 black-60 db mb2"
+          id="name-desc"
+        >
+          a username do you have one?
+        </small>
+      </div>
+    </TextFieldGroup>
+    <TextFieldGroup
+      info="a password do you have one?"
+      label="Password"
+      name="password"
+      onChange={[Function]}
+      required={true}
+      type="password"
+      value="7Cory98"
+    >
+      <div
+        className="measure mt3"
+      >
+        <label
+          className="db fw6 lh-copy f6"
+          htmlFor="password"
+        >
+          Password
+          <span
+            className="normal red"
+          >
+             *
+          </span>
+        </label>
+        <input
+          aria-describedby="name-desc"
+          className="pa2 input-reset ba hover-bg-black hover-white w-100  b--black-20"
+          id="password"
+          name="password"
+          onChange={[Function]}
+          type="password"
+          value="7Cory98"
+        />
+        <small
+          className="f6 black-60 db mb2"
+          id="name-desc"
+        >
+          a password do you have one?
+        </small>
+      </div>
+    </TextFieldGroup>
+    <input
+      className="b ph3 pv2 input-reset ba b--black grow pointer f6 dib"
+      type="submit"
+    />
+  </fieldset>
+</form>
+`;

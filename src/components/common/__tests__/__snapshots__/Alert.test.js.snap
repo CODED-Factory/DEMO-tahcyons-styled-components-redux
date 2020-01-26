@@ -1,0 +1,41 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Alert renders correctly 1`] = `
+<div
+  className="flex items-center justify-center pa3 br2 mv2 bg-light-yellow white"
+>
+  <span>
+    warning
+  </span>
+</div>
+`;
+
+exports[`Alert renders correctly 2`] = `
+<div
+  className="flex items-center justify-center pa3 br2 mv2 bg-light-red white"
+>
+  <span>
+    error
+  </span>
+</div>
+`;
+
+exports[`Alert renders correctly 3`] = `
+<div
+  className="flex items-center justify-center pa3 br2 mv2 bg-lightest-blue navy"
+>
+  <span>
+    info
+  </span>
+</div>
+`;
+
+exports[`Alert renders correctly 4`] = `
+<div
+  className="flex items-center justify-center pa3 br2 mv2 bg-light-green dark-green"
+>
+  <span>
+    success
+  </span>
+</div>
+`;

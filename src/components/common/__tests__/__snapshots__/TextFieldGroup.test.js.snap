@@ -1,0 +1,68 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TextFieldGroup rendering renders with basic props 1`] = `
+<div
+  className="measure mt3"
+>
+  <label
+    className="db fw6 lh-copy f6"
+    htmlFor="password"
+  >
+    Password
+    <span
+      className="normal black-60"
+    >
+       (optional)
+    </span>
+  </label>
+  <input
+    aria-describedby="password"
+    className="pa2 input-reset ba hover-bg-black hover-white w-100  b--black-20"
+    id="password"
+    name="password"
+    onChange={[Function]}
+    type="password"
+    value="password123"
+  />
+</div>
+`;
+
+exports[`TextFieldGroup rendering renders with optional props 1`] = `
+<div
+  className="measure mt3"
+>
+  <label
+    className="db fw6 lh-copy f6"
+    htmlFor="password"
+  >
+    Password
+    <span
+      className="normal red"
+    >
+       *
+    </span>
+  </label>
+  <input
+    aria-describedby="name-desc"
+    className="pa2 input-reset ba hover-bg-black hover-white w-100 b--red"
+    disabled={true}
+    id="password"
+    name="password"
+    onChange={[Function]}
+    placeholder="password123"
+    type="password"
+    value=""
+  />
+  <small
+    className="f6 black-60 db mb2"
+    id="name-desc"
+  >
+    put yo password
+  </small>
+  <small
+    className="f6 red db mb2"
+  >
+    y u no password?!
+  </small>
+</div>
+`;

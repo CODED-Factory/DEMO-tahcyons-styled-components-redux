@@ -1,0 +1,51 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Navbar /> renders with a login button if there's no user 1`] = `
+<styled.nav
+  className="bg-white shadow-1 fixed left-0 top-0 w-100"
+>
+  <div
+    className="container flex justify-between items-center pv3"
+  >
+    <Link
+      to="/"
+    >
+      <img
+        alt="logo"
+        src="logo.svg"
+      />
+    </Link>
+    <Link
+      className="b ph3 pv2 input-reset ba b--black grow pointer f6 dib"
+      to="/login"
+    >
+      LOGIN
+    </Link>
+  </div>
+</styled.nav>
+`;
+
+exports[`<Navbar /> renders with a logout button if there's a user 1`] = `
+<styled.nav
+  className="bg-white shadow-1 fixed left-0 top-0 w-100"
+>
+  <div
+    className="container flex justify-between items-center pv3"
+  >
+    <Link
+      to="/"
+    >
+      <img
+        alt="logo"
+        src="logo.svg"
+      />
+    </Link>
+    <Link
+      className="b ph3 pv2 input-reset ba b--black grow pointer f6 dib"
+      to="/"
+    >
+      LOGOUT
+    </Link>
+  </div>
+</styled.nav>
+`;

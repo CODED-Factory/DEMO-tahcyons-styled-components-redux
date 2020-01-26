@@ -1,0 +1,60 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders and matches snapshot 1`] = `
+<styled.footer
+  className="bg-white w-100"
+>
+  <div
+    className="container pv3 flex justify-between items-center flex-row-ns flex-column tc"
+  >
+    <p
+      className="ma0 mid-gray"
+    >
+      © 
+      2020
+       Copyright
+       
+      <a
+        href="https://www.joincoded.com"
+        rel="noopener noreferrer"
+        target="_blank"
+      >
+        CODED
+      </a>
+    </p>
+    <div
+      className="mb0-ns mb3"
+    >
+      <a
+        className="mr3"
+        href="https://www.facebook.com/joincoded/"
+        rel="noopener noreferrer"
+        target="_blank"
+      >
+        <Facebook
+          fill="#666"
+        />
+      </a>
+      <a
+        className="mr3"
+        href="https://twitter.com/joincoded"
+        rel="noopener noreferrer"
+        target="_blank"
+      >
+        <Twitter
+          fill="#666"
+        />
+      </a>
+      <a
+        href="https://www.instagram.com/joincoded/"
+        rel="noopener noreferrer"
+        target="_blank"
+      >
+        <Instagram
+          fill="#666"
+        />
+      </a>
+    </div>
+  </div>
+</styled.footer>
+`;

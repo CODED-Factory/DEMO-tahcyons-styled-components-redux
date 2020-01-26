@@ -1,21 +1,25 @@
 import React from "react";
 
+import articles from "./data";
+
 const Home = () => {
-  const elements = Array.from({ length: 100 }, (_, idx) => (
-    <p key={"content" + idx}>Content element #{idx + 1}</p>
+  const articleCards = articles.map(article => (
+    <pre
+      key={article.id}
+      style={{
+        display: "block",
+        maxWidth: "60%",
+        whiteSpace: "pre-wrap",
+        padding: 20
+      }}
+    >
+      {JSON.stringify(article, undefined, 2)}
+    </pre>
   ));
   return (
     <>
-      <h1>HOME PAGE</h1>
-      {elements}
-      <a
-        className="f6 link dim br2 ph3 pv2 mb2 dib white bg-black"
-        href="https://reactjs.org"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        Learn React
-      </a>
+      <h1>ARTICLES</h1>
+      {articleCards}
     </>
   );
 };

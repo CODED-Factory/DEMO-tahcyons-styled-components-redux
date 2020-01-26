@@ -1,5 +1,4 @@
 import React from "react";
-import Helmet from "react-helmet";
 import { Switch, Route, Redirect } from "react-router-dom";
 
 // Components
@@ -14,9 +13,6 @@ import AppStyles from "./styles/AppStyles";
 const App = () => {
   return (
     <>
-      <Helmet>
-        <title>Custom Title</title>
-      </Helmet>
       <Navbar />
       <AppStyles className="pt5">
         <Switch>
